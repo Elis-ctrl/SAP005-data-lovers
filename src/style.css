@@ -1,0 +1,149 @@
+.pokeTitle{
+    text-align: center;
+}
+
+body {
+    display: inline-block;
+    position: relative;
+    background-image: url("https://c.wallhere.com/photos/7e/63/Pok_mon_Squirtle-174835.jpg!d");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+}
+/* html aba de baixo */
+
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+/*html-aba de cima*/
+
+.results{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.filtro {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    flex-wrap: wrap;
+}
+   
+/* html-apenas botão */
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(12, 11, 12);
+    font-weight: bold;
+    cursor: pointer;
+}
+/* cartões */
+
+.div-filha {
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+    height: 330px;
+    margin: 7px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 13px;
+    letter-spacing: 3px;
+    border: 5px solid;
+    border-color: yellow;
+    border-radius: 16px;
+    line-height: 14px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/240px-Pokebola-pokeball-png-0.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.imagem{
+    text-align: center;
+    width: 40%;
+    height: 30%;
+}
+
+.tipo3 {
+    color: red;
+    text-align: left;
+}
+
+
+
+footer {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    bottom: 0px;
+    position: static;
+}
+/* cartões */
+@media only screen and (max-width: 1050px) {
+
+    .pokeTitle{
+        width: 260px;
+        text-align: center;
+    }
+    body{
+        width: 90%;
+        height: 120px;
+    }
+    .filtro{
+        height: 50px;
+        width: 100%;
+        padding-left: 5%;
+        position: relative;
+    }
+    .button{
+        height: 35px;
+    }
+    
+    .results{
+        font-size: 14px;
+    }
+    .flex-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1;
+        text-align: center;
+    }
+    .div-filha{
+        display: flex;
+        flex-wrap: wrap;
+        width: 140px;
+        height: 230px;
+        margin: 3px 3px;
+        font-size: 10px;
+        background-size: 30px;
+    }
+
+    .imagem{
+        text-align: center;
+        width: 50%;
+        height: 30%;
+    }
+}

@@ -25,6 +25,7 @@ export const ordenarAaZ = (pokemonGo, filtroOrdem) => {
   
   export const buscarTipo = (pokemonGo, filtroTipo) => pokemonGo.filter((tipo) =>
   (tipo.type.includes(filtroTipo)));
+  
   export const porNome = (pokemonGo, pokeName) => pokemonGo.filter((nome) =>
   (nome.name.toLowerCase().indexOf(pokeName.toLowerCase()) > -1));
   

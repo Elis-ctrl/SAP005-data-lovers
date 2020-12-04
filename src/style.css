@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .pokeTitle{
+=======
+.pokeTitle {
+>>>>>>> upstream
     text-align: center;
 }
 
@@ -23,7 +27,14 @@ body {
 }
 /*html-aba de cima*/
 
+<<<<<<< HEAD
 .results{
+=======
+
+/* /html-aba de cima/ { */
+
+.results {
+>>>>>>> upstream
     font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +75,11 @@ button {
     margin: 7px 7px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 13px;
+>>>>>>> upstream
     letter-spacing: 3px;
     border: 5px solid;
     border-color: yellow;
@@ -79,6 +94,7 @@ button {
     background-position-y: top;
 }
 
+<<<<<<< HEAD
 .imagem{
     text-align: center;
     width: 40%;
@@ -87,6 +103,12 @@ button {
 
 .tipo2{
     text-align: left;
+=======
+.imagem {
+    text-align: center;
+    width: 40%;
+    height: 30%;
+>>>>>>> upstream
 }
 
 .tipo3 {
@@ -103,9 +125,22 @@ footer {
     bottom: 0px;
     position: static;
 }
+<<<<<<< HEAD
+=======
+
+.results {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+>>>>>>> upstream
 /* cartões */
 @media only screen and (max-width: 1050px) {
 
+<<<<<<< HEAD
     .pokeTitle{
         text-align: center;
         width: 260px;
@@ -154,6 +189,45 @@ footer {
     .tipo3 {
         color: red;
         text-align: left;
+=======
+@media only screen and (max-width: 1050px) {
+    .pokeTitle {
+        width: 260px;
+        text-align: center;
+    }
+    body {
+        width: 90%;
+        height: 120px;
+    }
+    .filtro {
+        height: 50px;
+        width: 100%;
+        padding-left: 5%;
+        position: relative;
+    }
+    .button {
+        height: 35px;
+    }
+    .results {
+        font-size: 14px;
+    }
+    .flex-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1;
+        text-align: center;
+    }
+    .div-filha {
+        display: flex;
+        flex-wrap: wrap;
+        width: 140px;
+        height: 230px;
+        margin: 3px 3px;
+        font-size: 10px;
+        background-size: 30px;
+>>>>>>> upstream
     }
 
     .imagem{

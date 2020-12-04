@@ -9,8 +9,17 @@ function showingCards(pokemonGo) {
 cards.innerHTML = "";
 for (let pokemon of pokemonGo) {
 
+<<<<<<< HEAD
 var dados = document.createElement("div")
 dados.className = "div-filha";
+=======
+        dados.innerHTML += `
+                <h2><p class="tipo2"> ${pokemon.name}<p></h2>
+                <h3><p class="tipo3">Type: </p>${pokemon.type}</h3>
+                <h3><p class="tipo3">Eggs: </p>${pokemon.egg}</h3>
+                <h3><p class="tipo3">Weaknesses: </p>${pokemon.weaknesses.join(", ")}</h3>
+                <img src = ${pokemon.img} class = "imagem">`
+>>>>>>> upstream
 
 dados.innerHTML += `
 <h2><p class="tipo2"> ${pokemon.name}<p></h2>
@@ -43,9 +52,20 @@ showingCards(listaTipo);
 }
 
 btn.addEventListener("click", event => {
+<<<<<<< HEAD
 event.preventDefault()
 const pokeName = document.getElementById("nome").value;
 const novoPokemon = (porNome(pokemonGo, pokeName))
 document.getElementById("results").innerHTML = "";
 showingCards(novoPokemon);
 });
+=======
+    event.preventDefault()
+    const pokeName = document.getElementById("nome").value;
+    const novoPokemon = (porNome(pokemonGo, pokeName))
+    document.getElementById("results").innerHTML = "";
+    showingCards(novoPokemon);
+})
+
+modulo.exports = showingCards;
+>>>>>>> upstream

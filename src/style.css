@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-.pokeTitle{
-=======
 .pokeTitle {
->>>>>>> upstream
     text-align: center;
 }
 
@@ -14,6 +10,8 @@ body {
     background-position: center;
     background-repeat: repeat;
 }
+
+
 /* html aba de baixo */
 
 .flex-cards {
@@ -25,16 +23,8 @@ body {
     justify-content: center;
     align-content: center;
 }
-/*html-aba de cima*/
-
-<<<<<<< HEAD
-.results{
-=======
-
-/* /html-aba de cima/ { */
 
 .results {
->>>>>>> upstream
     font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +32,10 @@ body {
 }
 
 .filtro {
-   
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(238, 216, 22);
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -52,20 +45,17 @@ body {
     color: black;
     flex-wrap: wrap;
 }
-   
-/* html-apenas botão */
 
 button {
     width: 80px;
     height: 30px;
-    background-color: wheat;
+    background-color: yellow;
     border-radius: 10px;
     font-size: 14px;
     color: rgb(12, 11, 12);
     font-weight: bold;
     cursor: pointer;
 }
-/* cartões */
 
 .div-filha {
     display: inline-block;
@@ -75,11 +65,7 @@ button {
     margin: 7px 7px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-<<<<<<< HEAD
     font-size: 12px;
-=======
-    font-size: 13px;
->>>>>>> upstream
     letter-spacing: 3px;
     border: 5px solid;
     border-color: yellow;
@@ -94,29 +80,28 @@ button {
     background-position-y: top;
 }
 
-<<<<<<< HEAD
-.imagem{
-    text-align: center;
-    width: 40%;
-    height: 30%;
-}
-
-.tipo2{
-    text-align: left;
-=======
 .imagem {
     text-align: center;
     width: 40%;
     height: 30%;
->>>>>>> upstream
+}
+
+.tipo2 {
+    text-align: center;
 }
 
 .tipo3 {
     color: red;
-    text-align: left;
+    text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
 
+h2 {
+    text-align: center;
+}
 
 footer {
     font-size: 14px;
@@ -125,75 +110,11 @@ footer {
     bottom: 0px;
     position: static;
 }
-<<<<<<< HEAD
-=======
 
-.results {
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-
->>>>>>> upstream
-/* cartões */
-@media only screen and (max-width: 1050px) {
-
-<<<<<<< HEAD
-    .pokeTitle{
-        text-align: center;
-        width: 260px;
-    }
-    body{
-        width: 90%;
-        height: 120px;
-    }
-    .filtro{
-        height: 50px;
-        width: 100%;
-        padding-left: 5%;
-        position: relative;
-    }
-    .button{
-        height: 35px;
-    }
-    
-    .results{
-        font-size: 14px;
-    }
-    .flex-cards{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex: 1;
-        text-align: center;
-    }
-    .div-filha{
-        width: 200px;
-        height: 240px;
-        margin: 3px 3px;
-        font-size: 9px;
-        background-size: 30px;
-    }
-
-    h3{
-        text-align: left;
-    }
-
-    .tipo2{
-        text-align: left;
-    }
-
-    .tipo3 {
-        color: red;
-        text-align: left;
-=======
 @media only screen and (max-width: 1050px) {
     .pokeTitle {
-        width: 260px;
         text-align: center;
+        width: 260px;
     }
     body {
         width: 90%;
@@ -220,17 +141,23 @@ footer {
         text-align: center;
     }
     .div-filha {
-        display: flex;
-        flex-wrap: wrap;
-        width: 140px;
-        height: 230px;
+        width: 200px;
+        height: 240px;
         margin: 3px 3px;
-        font-size: 10px;
+        font-size: 9px;
         background-size: 30px;
->>>>>>> upstream
     }
-
-    .imagem{
+    h3 {
+        text-align: left;
+    }
+    .tipo2 {
+        text-align: left;
+    }
+    .tipo3 {
+        color: red;
+        text-align: left;
+    }
+    .imagem {
         width: 40%;
         height: 30%;
     }

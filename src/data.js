@@ -1,31 +1,31 @@
-export const ordenarAaZ = (pokemonGo, filtroOrdem) => {
+export function ordenarAaZ(pokemonGo, filtroOrdem) {
 
   if (filtroOrdem == "a-z") {
-  console.log(filtroOrdem)
-  return pokemonGo.sort(function(a, b) {
-  
-  if (a.name <= b.name) {
-  return -1
+    
+    return pokemonGo.sort(function (a, b) {
+
+      if (a.name <= b.name) {
+        return -1;
+      } else {
+        return 1;
+      }
+    });
   } else {
-  return 1;
+
+    return pokemonGo.sort(function (a, b) {
+
+      if (a.name <= b.name) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
   }
-  });
-  } else {
-  
-  return pokemonGo.sort(function(a, b) {
-  
-  if (a.name <= b.name) {
-  return 1;
-  } else {
-  return -1;
-  }
-  })
-  }
-  }
+}
   
   export const buscarTipo = (pokemonGo, filtroTipo) => pokemonGo.filter((tipo) =>
   (tipo.type.includes(filtroTipo)));
-  
+
   export const porNome = (pokemonGo, pokeName) => pokemonGo.filter((nome) =>
   (nome.name.toLowerCase().indexOf(pokeName.toLowerCase()) > -1));
   

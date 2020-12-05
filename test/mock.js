@@ -1,4 +1,6 @@
-"pokemon"[{
+export default {
+
+   "pokemon":[{
     "name": "misdreavus",
     "type": [
     "ghost"
@@ -137,5 +139,7 @@
     "water",
     "rock",
     "steel"
-    ],
-    }]
+],
+}
+]
+}

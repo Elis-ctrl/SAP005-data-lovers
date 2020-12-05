@@ -1,18 +1,22 @@
-import  {data} from '.mock.js';
-import { ordenarAaZ, buscarTipo, porNome, resultado } from '../src/data.js';
+    import data from './mock.js';
+    import { ordenarAaZ, buscarTipo, porNome, resultado } from '../src/data.js';
 
-describe(porNome) = (nome) => {
-        it('Esperamos que seja uma string', () => {
-            expect(typeof nome).toBe('string');
+    
+
+        describe('porNome', () => {
+        it('Esperamos que seja uma função', () => {
+            expect(typeof porNome).toBe('function');
         });
+        
         it('Irá dar erro se colocar número', () => {
-            expect(() => nome(28).toThrow(TypeError))
+            expect(() => porNome(28)).toThrow(TypeError)
+            
         });
-        it(typeof nome === Number,{ 
-            throw: new typeError('Por favor, insira o nome do pokémon'),
-        });
+       
         it('Esperamos que retorne os pokemons com "own"', () => {
-            expect(nomeFiltro("own", data.pokemon)).toStrictEqual([{
+            const resultado = porNome(data, "own");
+            expect(resultado).toBe([
+                {
                 "name": "unown",
                 "type": [
                     "psychic"
@@ -23,36 +27,22 @@ describe(porNome) = (nome) => {
                     "dark"
                 ],
             }])
-        });
-
-        it('Esperamos que retorne os pokemons com "mis"', () => {
-            expect(nomeFiltro("mis", data.pokemon)).toStrictEqual([{
-                "name": "misdreavus",
+    });
+        
+        /*it('Esperamos que retorne os pokemons com "own"', () => {
+            expect(porNome(data, "own")).toBe('function').toStrictEqual([
+                {
+                "name": "unown",
                 "type": [
-                    "ghost"
+                    "psychic"
                 ],
                 "weaknesses": [
+                    "bug",
                     "ghost",
                     "dark"
                 ],
             }])
-        });
-
-        it('Esperamos que retorne os pokemons com "ee', () => {
-            expect(nomeFiltro("ee", data.pokemon)).toStrictEqual([{
-                "name": "steelix",
-                "type": [
-                    "steel",
-                    "ground"
-                ],
-                "weaknesses": [
-                    "fire",
-                    "water",
-                    "fighting",
-                    "ground"
-                ],
-            }])
-        });
+    });*/
 
         describe('ordenarAaZ', () => {
             it('should be a function', () => {
@@ -71,5 +61,5 @@ describe(porNome) = (nome) => {
             it('should be a function', () => {
                 expect(typeof resultado).toBe('function');
             });
-        })
-    };
+        });
+        });

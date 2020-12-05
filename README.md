@@ -27,16 +27,16 @@ Para a base desse projeto, decidimos iniciar com o usuário, persona, para termo
 
 Então, desenvolvemos um formulario para captar a visão de um montante amostral sobre o tema.
 
-![Form](projetos/SAP005-DATA-LOVERS/img/imgForm.png)
-![Form](projetos/SAP005-DATA-LOVERS/img/imgForm2.png)
+![](img/imgForm.png)
+![](img/imgForm2.png)
 
 ### Protótipo de baixa fidelidade
 
-![Protótipo](projetos/SAP005-DATA-LOVERS/img/prototipo.png)
+![](img/prototipo.png)
 
 ### Implementação da interface de usuário (HTML/CSS/JS)
 
-![interface](projetos/SAP005-DATA-LOVERS/img/interface.png)
+![](img/interface.png)
 
 ## 3. Objetivos 
 
@@ -52,7 +52,7 @@ Exibimos também uma parametro que ao utilizar o filtro de tipagem o usuário sa
 
 Este é o resultado final do layout:
 
-![interface](projetos/SAP005-DATA-LOVERS/img/interface.png)
+![](img/interface.png)
 
 ## 5. Desenvolvido com
 
@@ -65,5 +65,3 @@ Este é o resultado final do layout:
 
   * Camila Kikuchi
   * Elis Brasil
-
-  :rocket

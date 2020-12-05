@@ -15,7 +15,7 @@
        
         it('Esperamos que retorne os pokemons com "own"', () => {
             const resultado = porNome(data, "own");
-            expect(resultado).toBe([
+            expect(resultado).toEqual([
                 {
                 "name": "unown",
                 "type": [
@@ -29,20 +29,6 @@
             }])
     });
         
-        /*it('Esperamos que retorne os pokemons com "own"', () => {
-            expect(porNome(data, "own")).toBe('function').toStrictEqual([
-                {
-                "name": "unown",
-                "type": [
-                    "psychic"
-                ],
-                "weaknesses": [
-                    "bug",
-                    "ghost",
-                    "dark"
-                ],
-            }])
-    });*/
 
         describe('ordenarAaZ', () => {
             it('should be a function', () => {

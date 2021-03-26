@@ -64,4 +64,11 @@ Este é o resultado final do layout:
 ## 6. Autoras
 
   * Camila Kikuchi
+ <img  style="border-radius: 50%;" src="https://trello-members.s3.amazonaws.com/5f2016fa61b72f2f43291e33/014299053b1f879e01fd511b01695e77/original.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Elis Brasil</b></sub> 
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Elis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brasil-elis/)](https://www.linkedin.com/in/brasil-elis/) 
+
+ [![GitHub Badge](https://img.shields.io/github/followers/Elis-ctrl?label=Elis&style=social)](https://github.com/Elis-ctrl)
   * Elis Brasil

@@ -5,10 +5,9 @@
 body {
     display: inline-block;
     position: relative;
-    background-image: url("https://c.wallhere.com/photos/7e/63/Pok_mon_Squirtle-174835.jpg!d");
+    background-color: royalblue;
     background-size: auto;
     background-position: center;
-    background-repeat: repeat;
 }
 
 

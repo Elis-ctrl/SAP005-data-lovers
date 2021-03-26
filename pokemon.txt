@@ -1,0 +1,20 @@
+Antes de começar a escrever o código, 
+você deve definir seu produto com base no 
+conhecimento que puder obter a respeito de seus usuários. 
+Estas perguntas podem ajudar:
+
+Quem são os usuários principais do produto?
+são usuarios de todas as idades que possuem interesse de se aventurar
+em um jogo super interativo e dinamico.
+Quais são os objetivos dos usuários com relação ao produto?
+Conseguir escolher, visualizar e quantificar os pokemons atraves de 
+atributos para uma melhor chance de vencer.
+Quais são os dados mais relevantes que querem ver na interface e por quê?
+força de combate -  para poder visualizar qual pokemon é melhor para combater outro.
+fraqueza - para visualizar seus pontos fracos na sua pokedex
+tipo - caracteristicas intrinsecas dos pokemons
+Quando utilizam ou utilizariam o produto?
+
+
+Toda sua investigação prévia deve ter como resultado as histórias de usuário de seu projeto.
+Não faça os protótipos de alta fidelidade de todas as suas histórias. Comece somente pela que necessite para seu Sprint 1.

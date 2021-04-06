@@ -3,25 +3,28 @@ import { ordenarAaZ, buscarTipo, porNome, resultado } from './data.js';
 
 const pokemonGo = data.pokemon;
 const cards = document.getElementById("cards");
-const btn = document.getElementById("btn");
 
 function showingCards(pokemonGo) {
+
     cards.innerHTML = "";
+
     for (let pokemon of pokemonGo) {
 
         var dados = document.createElement("div")
         dados.className = "div-filha";
 
         dados.innerHTML += `
-                <h2><p class="tipo2"> ${pokemon.name}<p></h2>
-                <h3><p class="tipo3">Type: </p>${pokemon.type}</h3>
-                <h3><p class="tipo3">Eggs: </p>${pokemon.egg}</h3>
-                <h3><p class="tipo3">Weaknesses: </p>${pokemon.weaknesses.join(", ")}</h3>
-                <img src = ${pokemon.img} class = "imagem">`
+            <p class="Titulo-card"> ${pokemon.name}<p>
+            <h3><p class="classe-card">Type: </p>${pokemon.type}</h3>
+            <h3><p class="classe-card">Eggs: </p>${pokemon.egg}</h3>
+            <h3><p class="classe-card">Weaknesses: </p>${pokemon.weaknesses.join(", ")}</h3>
+            <img class = "imagem" src = ${pokemon.img} >`
 
         cards.appendChild(dados);
+
     }
 }
+
 showingCards(pokemonGo);
 
 document.getElementById("ordem").onchange = () => {
@@ -42,12 +45,13 @@ document.getElementById("tipo").onchange = () => {
     showingCards(listaTipo);
 }
 
-btn.addEventListener("click", event => {
+document.getElementById("btn").onclick = (event) => {
     event.preventDefault()
+
     const pokeName = document.getElementById("nome").value;
     const novoPokemon = (porNome(pokemonGo, pokeName))
     document.getElementById("results").innerHTML = "";
     showingCards(novoPokemon);
-});
+};
 
 showingCards;

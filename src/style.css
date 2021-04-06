@@ -1,73 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .pokeTitle {
     text-align: center;
+    margin: 3rem;
 }
 
 body {
     display: inline-block;
     position: relative;
-    background-color: rgb(133, 188, 251);
-    background-size: auto;
-    background-position: center;
+    background-color:#04426E;
 }
 
+form {
+    width: 90%;
+    height: 25%;
+    margin: 1.5rem;
+}
 
-/* html aba de baixo */
+.filtro {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+input{
+    background:white;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    color: black;
+    font-size: 1.7rem;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    background:#ffcd00;
+    color: white;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    
+}
+
+button:hover{
+    background:rgba(255, 0, 0, 0.753) ;
+}
+
+#ordem {
+    background:white;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    color: black;
+    font-size: 1.7rem;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#tipo {
+    background:white;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    color: black;
+    font-size: 1.7rem;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.results {
+    width: 90%;
+    font-size: 3rem;
+    background:snow;
+    font-weight: 500;
+    margin-left: 4.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+/* html */
 
 .flex-cards {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    width: auto;
+    
+    
     height: auto;
     justify-content: center;
     align-content: center;
 }
 
-.results {
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-.filtro {
-    height: 50px;
-    border-radius: 10px;
-    font-family: 'Luckiest Guy', cursive;
-    color: rgb(255, 251, 23);
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    padding-top: 50px;
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-    flex-wrap: wrap;
-}
-
-button {
-    width: 80px;
-    height: 30px;
-    background-color: yellow;
-    border-radius: 10px;
-    font-size: 14px;
-    color: rgb(12, 11, 12);
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .div-filha {
-    display: inline-block;
-    padding: 10px;
+
     width: 300px;
     height: 330px;
-    margin: 7px 7px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 12px;
+    font-size: 0.8rem;
     letter-spacing: 3px;
     border: 5px solid;
-    border-color: rgba(255, 255, 78, 0.918);
+    border-color:#ffcd00;
     border-radius: 16px;
     line-height: 14px;
     background-color: whitesmoke;
@@ -77,30 +132,39 @@ button {
     background-size: 80px;
     background-position-x: right;
     background-position-y: top;
+    
 }
 
 .imagem {
-    text-align: center;
+    
     width: 40%;
     height: 30%;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+
 }
 
-.tipo2 {
+.Titulo-card {
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem;
 }
 
-.tipo3 {
-    color: red;
+.classe-card {
+    
     text-align: center;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    color: rgba(255, 0, 0, 0.753);
 }
 
 h3 {
     text-align: center;
+    font-size: 1.2rem;
+    padding: 0.3rem;
 }
 
-h2 {
-    text-align: center;
-}
 
 footer {
     position: static;
@@ -118,20 +182,23 @@ footer {
         width: 260px;
     }
     body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 90%;
-        height: 120px;
+        height: 150px;
     }
     .filtro {
         height: 50px;
         width: 100%;
-        padding-left: 5%;
+        padding-left: 7%;
         position: relative;
     }
     .button {
         height: 35px;
     }
     .results {
-        font-size: 14px;
+        font-size: 18px;
     }
     .flex-cards {
         display: flex;
@@ -140,6 +207,8 @@ footer {
         justify-content: center;
         flex: 1;
         text-align: center;
+        margin-top: 20rem;
+        margin-left: 10.5rem;
     }
     .div-filha {
         width: 200px;
@@ -149,17 +218,18 @@ footer {
         background-size: 30px;
     }
     h3 {
-        text-align: left;
+        text-align: center;
     }
-    .tipo2 {
-        text-align: left;
+    .Titulo-card  {
+        text-align: center;
     }
-    .tipo3 {
-        color: red;
-        text-align: left;
+    .classe-card {
+        text-align: center;
     }
     .imagem {
-        width: 40%;
-        height: 30%;
+        width: 30%;
+        height: 25%;
+        margin-left: 4rem;
+        margin-top: 0;
     }
 }

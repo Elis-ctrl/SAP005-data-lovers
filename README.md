@@ -7,14 +7,14 @@
 * [3. Objetivos](#3-objetivos)
 * [4. Teste de usabilidade](#4-teste-de-usabilidade)
 * [5. Desenvolvido com](#5-desenvolvido-com)
-* [6. Autoras](#6-autoras)
+* [6. Desenvolvedoras](#6-desenvolvedoras)
 
 *
 
 ## 1. Introdução
 
 Segundo projeto realizado para Laboratoria. Este projeto consiste na apresentação de um dashboard de Pokémons, com as funcionalidades
-de filtro, organização de cards e cálculo estatistico. Performado em dupla, e com outras opções, optamos pelo tema pokemon. Mas por que Pokémon?
+de filtro, organização de cards e cálculo estatistico. Performado em dupla, e com opções entre pokemon, rick and morty e lol, optamos pelo tema pokemon. Mas por que Pokémon?
 
 Esta franquia enorme nasceu no Japão, criação do Satoshi Tajihi, em meados de 1995. Este
 inicialmente foi desenvolvido para os games da nintendo, onde o treinador capturava, treinava e colocava em combate os pokémons(nome provido das palavras em japonês Poketto monsutã). Logo virou febre, pois afinal, quem consegue resistir ao pikachu né! 
@@ -56,14 +56,18 @@ Este é o resultado final do layout:
 
 ## 5. Desenvolvido com
 
-  * HTML5
-  * CSS
-  * JavaScript
-  * Node.js
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Glossary/HTML)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-## 6. Autoras
+![JS](https://img.shields.io/badge/JAVASCRIPT-ECMAScript%202018-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-blue)
+![CSS](https://img.shields.io/badge/CSS-3-red)
 
-  * Camila Kikuchi
+## 6. Desenvolvedoras
+
+  * Camila 
+  
  <img  style="border-radius: 50%;" src="https://trello-members.s3.amazonaws.com/5f2016fa61b72f2f43291e33/014299053b1f879e01fd511b01695e77/original.png" width="100px;" alt=""/>
  <br />
  <sub><b>Elis Brasil</b></sub> 
@@ -71,4 +75,4 @@ Este é o resultado final do layout:
  [![Linkedin Badge](https://img.shields.io/badge/-Elis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brasil-elis/)](https://www.linkedin.com/in/brasil-elis/) 
 
  [![GitHub Badge](https://img.shields.io/github/followers/Elis-ctrl?label=Elis&style=social)](https://github.com/Elis-ctrl)
-  * Elis Brasil
+

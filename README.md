@@ -1,5 +1,5 @@
  <h1 align="center">
- <img  alt="Logo"  src="C:\Users\Elis\Desktop\DEV\SAP005-data-lovers\img\logo.png" />
+ <img  alt="Logo"  src="img\logo.png" />
  </h1>
 
 # <h2 align="center">PokéLovers</h2>

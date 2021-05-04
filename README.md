@@ -1,4 +1,10 @@
-# Pokélovers
+ <h1 align="center">
+ <img  alt="Logo"  src="C:\Users\Elis\Desktop\DEV\SAP005-data-lovers\img\logo.png" />
+ </h1>
+
+# <h2 align="center">PokéLovers</h2>
+
+:sparkles:Para acessar a aplicação [Clique aqui](https://elis-ctrl.github.io/SAP005-data-lovers/):sparkles:
 
 ## Índice
 
@@ -8,8 +14,6 @@
 * [4. Teste de usabilidade](#4-teste-de-usabilidade)
 * [5. Desenvolvido com](#5-desenvolvido-com)
 * [6. Desenvolvedoras](#6-desenvolvedoras)
-
-*
 
 ## 1. Introdução
 
@@ -52,7 +56,7 @@ Exibimos também uma parametro que ao utilizar o filtro de tipagem o usuário sa
 
 Este é o resultado final do layout:
 
-![](img/interface.png)
+![](img/interface-finalizada.png)
 
 ## 5. Desenvolvido com
 
@@ -66,7 +70,13 @@ Este é o resultado final do layout:
 
 ## 6. Desenvolvedoras
 
-  * Camila 
+ <img  style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQHZBS-30DJtmQ/profile-displayphoto-shrink_800_800/0/1614115195556?e=1625702400&v=beta&t=rlo_qZbT43DuUTPKX4m55i4YR2s77_44XWDzQN9ZG6Y" width="100px;" alt=""/>
+ <br />
+ <sub><b>Camila kikuchi</b></sub> 
+
+  [![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/camilakikuchi/)](https://www.linkedin.com/in/camilakikuchi/) 
+
+ [![GitHub Badge](https://img.shields.io/github/followers/CamilaKikuchi?label=Camila&style=social)](https://github.com/CamilaKikuchi)
   
  <img  style="border-radius: 50%;" src="https://trello-members.s3.amazonaws.com/5f2016fa61b72f2f43291e33/014299053b1f879e01fd511b01695e77/original.png" width="100px;" alt=""/>
  <br />
